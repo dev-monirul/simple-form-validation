@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="error"></div>
+    <section class="simple-form-validation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="simple-form">
+                        <form id="form" action="/" method="GET">
+                            <div>
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="name" required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input id="password" name="password" type="password">
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
